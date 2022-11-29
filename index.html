@@ -8,53 +8,118 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
   </head>
   <body>
+    <!-- Navbar Section Starts -->
     <nav class="navbar">
       <h1 class="navbar__title">K. Karr</h1>
       <ul class="navbar__navigation">
-        <li class="navbar__items">
-          <a class="navbar__hyperlinks" href="#about-me">About Me</a>
+        <li class="navbar__item">
+          <a class="navbar__hyperlink" href="#about-me">About Me</a>
         </li>
-        <li class="navbar__items">
-          <a class="navbar__hyperlinks" href="#work">Work</a>
+        <li class="navbar__item">
+          <a class="navbar__hyperlink" href="#work">Work</a>
         </li>
-        <li class="navbar__items">
-          <a class="navbar__hyperlinks" href="#contact-me">Contact Me</a>
-        </li>
-        <li class="navbar__items">
-          <a class="navbar__hyperlinks" href="#">Resume</a>
+        <li class="navbar__item">
+          <a class="navbar__hyperlink" href="#contact-me">Contact Me</a>
         </li>
       </ul>
     </nav>
+    <!-- Navbar Section Ends -->
+    <!-- Header Section Starts -->
     <header class="header">
       <h2 class="header__title">Web Developer</h2>
     </header>
+    <!-- Header Section Ends -->
     <main>
+      <!-- About Me Section Starts -->
       <section class="section" id="about-me">
         <h3 class="section__title">About Me</h3>
-        <p class="section__paragraph">
-          I got my start writing HTML on Expage, GeoCities, and LiveJournal in
-          high school.
-        </p>
-        <p class="section__paragraph">
-          After collecting a few degrees, living abroad for two years, and
-          cutting my teeth as a copy editor for nearly a decade, I returned to
-          web development out of a strong desire to learn more about the
-          technologies I use every day.
-        </p>
-        <p class="section__paragraph">
-          I specialize in HTML, CSS, SCSS, and JavaScript, and currently, I'm
-          learning how to deploy full stack applications.
-        </p>
+        <article class="section__content">
+          <p>
+            I got my start writing HTML on Expage, GeoCities, and LiveJournal in
+            high school. After collecting a few degrees, living abroad for two
+            years, and cutting my teeth as a copy editor for nearly a decade, I
+            returned to web development out of a strong desire to learn more
+            about the technologies I use every day. I specialize in HTML, CSS,
+            SCSS, and JavaScript, and currently, I'm learning how to deploy full
+            stack applications.
+          </p>
+        </article>
       </section>
-      <section class="section" id="work">
-        <h3 class="section__title">Work</h3>
+      <!-- About Me Section Ends -->
+      <!-- Work Section Starts -->
+      <section class="work-section">
+        <h3 class="work-section__title">Work</h3>
+        <div class="work-section__flex-container">
+          <a class="work-section__a work-section__large-img" href="#"
+            ><div class="work-section__flex-item">
+              <img class="work-section__img" src="assets/images/nature.jpg" />
+              <div class="work-section__text-block">
+                <h4>Title</h4>
+                <p>Technologies</p>
+              </div>
+            </div></a
+          >
+          <a class="work-section__a" href="#"
+            ><div class="work-section__flex-item">
+              <img class="work-section__img" src="assets/images/nature.jpg" />
+              <div class="work-section__text-block">
+                <h4>Title</h4>
+                <p>Technologies</p>
+              </div>
+            </div></a
+          >
+          <a class="work-section__a" href="#"
+            ><div class="work-section__flex-item">
+              <img class="work-section__img" src="assets/images/nature.jpg" />
+              <div class="work-section__text-block">
+                <h4>Title</h4>
+                <p>Technologies</p>
+              </div>
+            </div></a
+          >
+          <a class="work-section__a" href="#"
+            ><div class="work-section__flex-item">
+              <img class="work-section__img" src="assets/images/nature.jpg" />
+              <div class="work-section__text-block">
+                <h4>Title</h4>
+                <p>Technologies</p>
+              </div>
+            </div></a
+          >
+          <a class="work-section__a" href="#"
+            ><div class="work-section__flex-item">
+              <img class="work-section__img" src="assets/images/nature.jpg" />
+              <div class="work-section__text-block">
+                <h4>Title</h4>
+                <p>Technologies</p>
+              </div>
+            </div></a
+          >
+        </div>
       </section>
+      <!-- Work Section Ends -->
+      <!-- Contact Me Section Starts -->
       <section class="section" id="contact-me">
         <h3 class="section__title">Contact Me</h3>
-        <p><a href="https://kkarrwrites.carrd.co">Carrd</a></p>
-        <p><a href="https://github.com/kkarrwrites">GitHub</a></p>
-        <p><a href="https://medium.com/@kkarrwrites">Medium</a></p>
+        <ul class="section__content section__content-contact-me">
+          <li class="section__item">
+            <a class="section__hyperlink" href="https://kkarrwrites.carrd.co"
+              >Carrd</a
+            >
+          </li>
+          <li class="section__item">
+            <a class="section__hyperlink" href="https://github.com/kkarrwrites"
+              >GitHub</a
+            >
+          </li>
+          <li class="section__item">
+            <a class="section__hyperlink" href="https://medium.com/@kkarrwrites"
+              >Medium</a
+            >
+          </li>
+        </ul>
       </section>
+      <!-- Contact Me Section Ends -->
     </main>
   </body>
 </html>
