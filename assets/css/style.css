@@ -29,12 +29,12 @@ html {
 }
 /* Resets Ends */
 
-/* Styling Starts*/
+/* Body Styling Starts*/
 body {
   background-color: var(--light-gray);
   font-family: var(--font-family-sans-serif);
 }
-/* Styling Ends */
+/* Body Styling Ends */
 
 /* Nav Starts */
 .navbar {
@@ -53,23 +53,23 @@ body {
   list-style: none;
 }
 
-.navbar__item {
+.navbar__list-item {
   padding: 5px 5px 10px 5px;
 }
 
 .navbar__hyperlink {
+  border-bottom: 3px solid var(--light-green);
   color: var(--light-green);
   font-size: var(--font-size-18px);
   text-decoration: none;
-  border-bottom: 3px solid var(--light-green);
 }
 
 @media (min-width: 610px) {
   .navbar {
+    padding: 10px 50px 10px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 50px 10px 0px;
   }
 
   .navbar__title {
@@ -79,11 +79,11 @@ body {
   .navbar__navigation {
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
+    justify-content: space-evenly;
   }
 
-  .navbar__item {
+  .navbar__list-item {
     padding: 5px 10px 5px 0px;
   }
 
@@ -101,92 +101,45 @@ body {
 }
 /* Header Ends */
 
-/* Main Starts */
-.section {
+/* About Me Section Starts */
+.about-me-section {
   text-align: center;
 }
 
-.section__title {
+.about-me-section__title {
   color: var(--dark-blue);
   font-size: var(--font-size-36px);
-  padding: 5px 5px 5px 5px;
+  padding: 10px 5px 5px 5px;
 }
 
-.section__content {
+.about-me-section__content {
   color: var(--dark-blue);
   font-size: var(--font-size-16px);
+  line-height: 1.5;
   list-style: none;
   padding: 10px 20px 10px 20px;
 }
 
-.section__content-work {
-  position: relative;
-}
-
-.section__content-work {
-  position: relative;
-}
-
-.section__img {
-  border: 5px solid var(--light-green);
-}
-
-.section__img-content {
-  position: absolute;
-  bottom: 50px;
-  left: 55px;
-  background-color: var(--light-green);
-  color: var(--dark-blue);
-  padding: 5px 5px 5px 5px;
-}
-
-.section__item {
-  padding: 5px 5px 10px 5px;
-}
-
-.section__hyperlink {
-  color: var(--dark-gray);
-  font-size: var(--font-size-18px);
-  text-decoration: none;
-  border-bottom: 3px solid var(--dark-blue);
-}
-
 @media (min-width: 610px) {
-  .section {
+  .about-me-section {
     display: flex;
+    align-items: center;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
   }
 
-  .section__title {
+  .about-me-section__title {
     flex: 25%;
     text-align: right;
   }
 
-  .section__content {
+  .about-me-section__content {
     flex: 75%;
     text-align: left;
     padding: 25px 50px 20px 20px;
   }
-
-  .section__content-contact-me {
-    list-style: none;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .section__item {
-    padding: 5px 10px 5px 0px;
-  }
-
-  .section__hyperlink {
-    padding: 0 5px 3px 5px;
-  }
 }
-/* Main Ends */
+/* About Me Section Ends */
 
 /* Work Section Starts */
 .work-section__title {
@@ -217,10 +170,12 @@ body {
 
 .work-section__text-block > h4 {
   font-size: var(--font-size-26px);
+  line-height: 1.5;
 }
 
 .work-section__text-block > p {
   font-size: var(--font-size-16px);
+  line-height: 1.5;
 }
 
 @media (min-width: 610px) {
@@ -254,3 +209,66 @@ body {
   }
 }
 /* Work Section Ends */
+
+/* Contact Me Section Starts */
+.contact-me-section {
+  text-align: center;
+}
+
+.contact-me-section__title {
+  color: var(--dark-blue);
+  font-size: var(--font-size-36px);
+  padding: 5px 5px 5px 5px;
+}
+
+.contact-me-section__content {
+  color: var(--dark-blue);
+  font-size: var(--font-size-16px);
+  list-style: none;
+  padding: 10px 20px 10px 20px;
+}
+
+.contact-me-section__list-item {
+  padding: 5px 5px 10px 5px;
+}
+
+.contact-me-section__hyperlink {
+  color: var(--dark-gray);
+  font-size: var(--font-size-18px);
+  text-decoration: none;
+  border-bottom: 3px solid var(--dark-blue);
+}
+
+@media (min-width: 610px) {
+  .contact-me-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-me-section__title {
+    flex: 25%;
+    text-align: right;
+  }
+
+  .contact-me-section__content {
+    flex: 75%;
+    list-style: none;
+    text-align: left;
+    padding: 25px 50px 20px 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .contact-me-section__list-item {
+    padding: 5px 10px 5px 0px;
+  }
+
+  .contact-me-section__hyperlink {
+    padding: 0 5px 3px 5px;
+  }
+}
+/* Contact Me Section Ends */
