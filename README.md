@@ -30,4 +30,9 @@ An HTML, CSS, flexbox, and responsive mobile first coding challenge for UConn Bo
 
 ### Images
 
+- [How TO - Position Text Over an Image](https://www.w3schools.com/howto/howto_css_image_text.asp) on W3Schools
 - [How TO - Text Blocks Over Image](https://www.w3schools.com/howto/howto_css_image_text_blocks.asp) on W3Schools
+
+### Media Queries
+
+- [PX, EM, or REM Media Queries?](https://zellwk.com/blog/media-query-units/) by Zell Liew
