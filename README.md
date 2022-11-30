@@ -12,7 +12,7 @@ The main challenge I encountered while completing this project was learning how 
 
 I also used the [BEM](https://getbem.com/) methodology to write my class names and organize my HTML and CSS. One challenge I continually encounter with CSS is knowing when to refactor repetitive code. Right now, my CSS is organized by section, making it easy to understand what code does what on the page; however, there is a lot of repetitive code that could easily be refactored, and I plan on doing some refactoring to this project at a later date.
 
-Finally, I did not change much about the layout for this challenge. I essentially copied what I was given, colors and all. If I had more time, I might try to add more of my personality to this project; however, I am a web developer and not a designer, and I prefer to spend my time focusing on the code than on the design.
+Finally, I did not change much about the layout for this challenge. I essentially copied what I was given, colors and all. If I had more time, I might try to add more of my personality to this project; however, I am a web developer and not a designer, and I prefer to spend my time focusing on the code than on the design. I did add a photograph of the Colorado Rocky Mountains in place of a recent photograph or avatar to add a little personality to my portfolio project.
 
 ## Technologies
 
