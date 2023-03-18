@@ -2,7 +2,7 @@
 
 ## About
 
-An HTML, CSS, flexbox, and responsive mobile first coding challenge for UConn Boot Camp.
+An HTML, CSS, flexbox, and responsive mobile first coding challenge for Full Stack Coding Boot Camp.
 
 ## Description
 
