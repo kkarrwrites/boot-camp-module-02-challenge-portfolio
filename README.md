@@ -24,7 +24,7 @@ HTML, CSS, BEM, Git, GitHub, VS Code, Chrome, Firefox
 
 ## Deployment
 
-[GitHub Pages](https://kkarrwrites.github.io/boot-camp-module-02-challenge/)
+[GitHub Pages](https://kkarrwrites.github.io/boot-camp-module-02-challenge-portfolio/)
 
 ## License
 
